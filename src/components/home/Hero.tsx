@@ -41,7 +41,7 @@ export const Hero: React.FC = () => {
           >
             <div className="relative rounded-3xl overflow-hidden shadow-2xl border-4 border-white bg-slate-800">
               <img 
-                src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80" 
+                src="/images/maritime-hero.png" 
                 alt="Offshore Marine Logistics Cargo Vessel" 
                 loading="eager"
                 decoding="async"
