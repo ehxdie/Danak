@@ -31,14 +31,16 @@ export const ServiceGrid: React.FC = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-[#111827] mb-4">{service.title}</h3>
                 <p className="text-base text-[#4B5563] leading-relaxed mb-6">{service.description}</p>
-                <ul className="space-y-2 mb-8">
-                  {service.features.map((feature, fIdx) => (
-                    <li key={fIdx} className="text-sm font-medium text-[#0A2A52] flex items-center gap-2">
-                      <span className="w-1.5 h-1.5 rounded-full bg-[#D9A441]" />
-                      {feature}
-                    </li>
-                  ))}
-                </ul>
+                {service.features && service.features.length > 0 && (
+                  <ul className="space-y-2 mb-8">
+                    {service.features.map((feature, fIdx) => (
+                      <li key={fIdx} className="text-sm font-medium text-[#0A2A52] flex items-center gap-2">
+                        <span className="w-1.5 h-1.5 rounded-full bg-[#D9A441]" />
+                        {feature}
+                      </li>
+                    ))}
+                  </ul>
+                )}
               </div>
 
               <div>

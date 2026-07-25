@@ -2,8 +2,8 @@ import React from 'react';
 import { PageBanner } from '../components/common/PageBanner';
 import { ContactForm } from '../components/contact/ContactForm';
 import { ContactInfo } from '../components/contact/ContactInfo';
-import { GoogleMap } from '../components/contact/GoogleMap';
-import { FAQ } from '../components/contact/FAQ';
+// import { GoogleMap } from '../components/contact/GoogleMap';
+// import { FAQ } from '../components/contact/FAQ';
 import { CTASection } from '../components/common/CTASection';
 
 export const Contact: React.FC = () => {
@@ -24,9 +24,7 @@ export const Contact: React.FC = () => {
             </div>
           </div>
         </div>
-      </section>
-      <GoogleMap />
-      <FAQ />
+      </section>  
       <CTASection />
     </>
   );

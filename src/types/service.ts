@@ -4,5 +4,6 @@ export interface Service {
   slug: string;
   description: string;
   icon: string;
-  features: string[];
+  features?: string[];
 }
+

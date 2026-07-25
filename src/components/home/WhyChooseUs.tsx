@@ -9,27 +9,27 @@ export const WhyChooseUs: React.FC = () => {
     {
       icon: <FiBriefcase className="w-6 h-6 text-[#0A2A52]" />,
       title: 'Professional & Dependable Service',
-      description: 'Transparent execution and standard-setting logistics operations.'
+      // description: 'Transparent execution and standard-setting logistics operations.'
     },
     {
       icon: <FiZap className="w-6 h-6 text-[#0A2A52]" />,
       title: 'Industry-Focused Solutions',
-      description: 'Decades of domain expertise applied to West African oil, gas and logistics.'
+      // description: 'Decades of domain expertise applied to West African oil, gas and logistics.'
     },
     {
       icon: <FiShield className="w-6 h-6 text-[#0A2A52]" />,
       title: 'Strong Commitment to Safety',
-      description: 'Unyielding adherence to NIMASA, HSE, and international protocols.'
+      // description: 'Unyielding adherence to NIMASA, HSE, and international protocols.'
     },
     {
       icon: <FiCheckCircle className="w-6 h-6 text-[#0A2A52]" />,
       title: 'Responsive Project Support',
-      description: '24/7 readiness to deploy assets and resolve offshore technical tasks.'
+      // description: '24/7 readiness to deploy assets and resolve offshore technical tasks.'
     },
     {
       icon: <FiUsers className="w-6 h-6 text-[#0A2A52]" />,
       title: 'Client-Focused Approach',
-      description: 'Operational strategy engineered specifically around your project scope.'
+      // description: 'Operational strategy engineered specifically around your project scope.'
     }
   ];
 
@@ -59,7 +59,6 @@ export const WhyChooseUs: React.FC = () => {
                 {feature.icon}
               </div>
               <h3 className="text-base font-bold text-[#111827] mb-2">{feature.title}</h3>
-              <p className="text-xs text-[#4B5563] leading-relaxed">{feature.description}</p>
             </motion.div>
           ))}
         </motion.div>

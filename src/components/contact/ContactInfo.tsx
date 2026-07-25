@@ -1,5 +1,5 @@
 import React from 'react';
-import { FiMapPin, FiMail, FiPhone, FiClock } from 'react-icons/fi';
+import { FiMapPin, FiMail, FiPhone } from 'react-icons/fi';
 import { companyData } from '../../data/company';
 
 export const ContactInfo: React.FC = () => {
@@ -7,7 +7,6 @@ export const ContactInfo: React.FC = () => {
     { icon: <FiMapPin />, title: 'Head Office Address', details: companyData.address },
     { icon: <FiMail />, title: 'Email Address', details: companyData.email },
     { icon: <FiPhone />, title: 'Phone Line', details: companyData.phone },
-    { icon: <FiClock />, title: 'Operational Hours', details: 'Monday - Friday: 8:00 AM - 5:00 PM (24/7 Field Support)' }
   ];
 
   return (

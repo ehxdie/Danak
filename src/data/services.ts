@@ -7,7 +7,6 @@ export const servicesData: Service[] = [
     slug: 'marine-logistics',
     description: 'Efficient logistics coordination and operational support for marine, offshore and coastal activities, ensuring the seamless movement of personnel, equipment and materials.',
     icon: 'FiAnchor',
-    features: ['Personnel & crew logistics', 'Offshore supply routes', 'Coastal operations support']
   },
   {
     id: 'vessel-management',
@@ -15,38 +14,33 @@ export const servicesData: Service[] = [
     slug: 'vessel-management',
     description: 'Comprehensive vessel management services including operational coordination, maintenance planning, crew administration support, documentation oversight and compliance coordination to help ensure safe and efficient vessel operations.',
     icon: 'FiAnchor',
-    features: ['Maintenance planning', 'Crew administration', 'Compliance coordination']
   },
   {
     id: 'equipment-management',
     title: 'Equipment Management',
     slug: 'equipment-management',
     description: 'Professional management and coordination of marine equipment, ensuring assets are maintained, deployed and operated efficiently to support client projects.',
-    icon: 'FiTruck',
-    features: ['Asset tracking', 'Maintenance & servicing', 'Field deployment support']
+    icon: 'FiTruck'
   },
   {
     id: 'procurement-supply',
     title: 'Procurement & Supply',
     slug: 'procurement-supply',
     description: 'Procurement, sourcing and supply of quality marine equipment, operational materials and project resources tailored to the needs of the maritime and offshore industries.',
-    icon: 'FiBox',
-    features: ['Sourcing verification', 'Equipment spares supply', 'Quality resource delivery']
+    icon: 'FiBox'
   },
   {
     id: 'consultancy',
     title: 'Consultancy',
     slug: 'consultancy',
     description: 'Professional advisory services including maritime consultancy, regulatory guidance, documentation support, compliance assistance and project coordination for businesses operating within the marine and offshore sectors.',
-    icon: 'FiTrendingUp',
-    features: ['Regulatory guidance', 'Compliance assistance', 'Operational advisory']
+    icon: 'FiTrendingUp'
   },
   {
     id: 'project-support',
     title: 'Project Support',
     slug: 'project-support',
     description: 'End-to-end operational support for marine and offshore projects, from planning and coordination through execution and ongoing operational assistance.',
-    icon: 'FiTrendingUp',
-    features: ['End-to-end coordination', 'Planning support', 'Execution monitoring']
+    icon: 'FiTrendingUp'
   }
 ];
