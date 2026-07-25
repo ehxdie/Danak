@@ -4,8 +4,8 @@ import { Button } from '../common/Button';
 export const ContactForm: React.FC = () => {
   const [submitted, setSubmitted] = useState(false);
   const [formData, setFormData] = useState({
-    firstName: '',
-    lastName: '',
+    name: '',
+    company: '',
     email: '',
     phone: '',
     service: 'marine-logistics',
@@ -38,23 +38,22 @@ export const ContactForm: React.FC = () => {
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
         <div>
-          <label className="block text-xs font-semibold text-gray-700 uppercase mb-2">First Name *</label>
+          <label className="block text-xs font-semibold text-gray-700 uppercase mb-2">Name *</label>
           <input
             type="text"
             required
             className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#0A2A52] focus:outline-hidden text-sm"
-            value={formData.firstName}
-            onChange={(e) => setFormData({ ...formData, firstName: e.target.value })}
+            value={formData.name}
+            onChange={(e) => setFormData({ ...formData, name: e.target.value })}
           />
         </div>
         <div>
-          <label className="block text-xs font-semibold text-gray-700 uppercase mb-2">Last Name *</label>
+          <label className="block text-xs font-semibold text-gray-700 uppercase mb-2">Company</label>
           <input
             type="text"
-            required
             className="w-full px-4 py-3 rounded-xl border border-gray-200 focus:border-[#0A2A52] focus:outline-hidden text-sm"
-            value={formData.lastName}
-            onChange={(e) => setFormData({ ...formData, lastName: e.target.value })}
+            value={formData.company}
+            onChange={(e) => setFormData({ ...formData, company: e.target.value })}
           />
         </div>
       </div>
@@ -89,9 +88,11 @@ export const ContactForm: React.FC = () => {
           onChange={(e) => setFormData({ ...formData, service: e.target.value })}
         >
           <option value="marine-logistics">Marine Logistics</option>
+          <option value="vessel-management">Vessel Management</option>
           <option value="equipment-management">Equipment Management</option>
           <option value="procurement-supply">Procurement & Supply</option>
-          <option value="consultancy">Consultancy & Project Support</option>
+          <option value="consultancy">Consultancy</option>
+          <option value="project-support">Project Support</option>
         </select>
       </div>
 

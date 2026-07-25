@@ -5,32 +5,48 @@ export const servicesData: Service[] = [
     id: 'marine-logistics',
     title: 'Marine Logistics',
     slug: 'marine-logistics',
-    description: 'Comprehensive offshore vessel management, cargo handling, and port operation support.',
+    description: 'Efficient logistics coordination and operational support for marine, offshore and coastal activities, ensuring the seamless movement of personnel, equipment and materials.',
     icon: 'FiAnchor',
-    features: ['Vessel chartering', 'Offshore supply', 'Cargo & port logistics']
+    features: ['Personnel & crew logistics', 'Offshore supply routes', 'Coastal operations support']
+  },
+  {
+    id: 'vessel-management',
+    title: 'Vessel Management',
+    slug: 'vessel-management',
+    description: 'Comprehensive vessel management services including operational coordination, maintenance planning, crew administration support, documentation oversight and compliance coordination to help ensure safe and efficient vessel operations.',
+    icon: 'FiAnchor',
+    features: ['Maintenance planning', 'Crew administration', 'Compliance coordination']
   },
   {
     id: 'equipment-management',
     title: 'Equipment Management',
     slug: 'equipment-management',
-    description: 'Provision and maintenance of specialized heavy marine and offshore machinery.',
+    description: 'Professional management and coordination of marine equipment, ensuring assets are maintained, deployed and operated efficiently to support client projects.',
     icon: 'FiTruck',
-    features: ['Heavy equipment rental', 'Preventive maintenance', 'Operational support']
+    features: ['Asset tracking', 'Maintenance & servicing', 'Field deployment support']
   },
   {
     id: 'procurement-supply',
     title: 'Procurement & Supply',
     slug: 'procurement-supply',
-    description: 'End-to-end supply chain sourcing for industrial and offshore marine equipment.',
+    description: 'Procurement, sourcing and supply of quality marine equipment, operational materials and project resources tailored to the needs of the maritime and offshore industries.',
     icon: 'FiBox',
-    features: ['Global vendor sourcing', 'Quality assurance', 'Timely delivery']
+    features: ['Sourcing verification', 'Equipment spares supply', 'Quality resource delivery']
   },
   {
-    id: 'consultancy-project-support',
-    title: 'Consultancy & Project Support',
-    slug: 'consultancy-project-support',
-    description: 'Expert technical advisory and end-to-end management for maritime projects.',
+    id: 'consultancy',
+    title: 'Consultancy',
+    slug: 'consultancy',
+    description: 'Professional advisory services including maritime consultancy, regulatory guidance, documentation support, compliance assistance and project coordination for businesses operating within the marine and offshore sectors.',
     icon: 'FiTrendingUp',
-    features: ['Project management', 'Regulatory compliance', 'Risk assessment']
+    features: ['Regulatory guidance', 'Compliance assistance', 'Operational advisory']
+  },
+  {
+    id: 'project-support',
+    title: 'Project Support',
+    slug: 'project-support',
+    description: 'End-to-end operational support for marine and offshore projects, from planning and coordination through execution and ongoing operational assistance.',
+    icon: 'FiTrendingUp',
+    features: ['End-to-end coordination', 'Planning support', 'Execution monitoring']
   }
 ];

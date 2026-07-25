@@ -2,14 +2,16 @@ import React from 'react';
 import { PageBanner } from '../components/common/PageBanner';
 import { ContactForm } from '../components/contact/ContactForm';
 import { ContactInfo } from '../components/contact/ContactInfo';
+import { GoogleMap } from '../components/contact/GoogleMap';
+import { FAQ } from '../components/contact/FAQ';
 import { CTASection } from '../components/common/CTASection';
 
 export const Contact: React.FC = () => {
   return (
     <>
       <PageBanner 
-        title="Contact Us" 
-        subtitle="Let us discuss how Danak Logistics can support your offshore project."
+        title="Let's Work Together" 
+        subtitle="Whether you require marine logistics, consultancy or operational support, our team is ready to assist."
       />
       <section className="py-20 bg-[#F8FAFC]">
         <div className="container-custom">
@@ -23,6 +25,8 @@ export const Contact: React.FC = () => {
           </div>
         </div>
       </section>
+      <GoogleMap />
+      <FAQ />
       <CTASection />
     </>
   );

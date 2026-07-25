@@ -29,16 +29,16 @@ export const CompanyStory: React.FC = () => {
             className="lg:col-span-6"
           >
             <span className="text-xs font-bold uppercase tracking-widest text-[#0A2A52] mb-3 block">
-              Company Overview
+              About Us
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#111827] mb-6">
-              Our Journey & Commitment
+              About Danak Logistics & Resources Ltd
             </h2>
-            <p className="text-base text-[#4B5563] leading-relaxed mb-4">
+            <p className="text-base text-[#4B5563] leading-relaxed mb-6">
               {companyData.description}
             </p>
             <p className="text-base text-[#4B5563] leading-relaxed">
-              We specialize in bridging logistics gaps in the maritime and energy sectors by leveraging deep industry domain expertise, safety compliance, and robust asset management.
+              We combine practical industry knowledge with a commitment to safety, professionalism and operational excellence, enabling our clients to focus on their core business while we provide dependable support.
             </p>
           </motion.div>
         </div>

@@ -26,7 +26,7 @@ export const Footer: React.FC = () => {
 
           {/* Col 2: Quick Links */}
           <div>
-            <h4 className="text-base font-bold text-[#D9A441] mb-5 uppercase tracking-wider text-xs">Navigation</h4>
+            <h4 className="text-base font-bold text-[#D9A441] mb-5 uppercase tracking-wider text-xs">Quick Links</h4>
             <ul className="space-y-3 text-sm text-gray-300">
               <li>
                 <Link to="/" className="hover:text-[#D9A441] transition-colors flex items-center gap-2">
@@ -35,7 +35,7 @@ export const Footer: React.FC = () => {
               </li>
               <li>
                 <Link to="/about" className="hover:text-[#D9A441] transition-colors flex items-center gap-2">
-                  <FiArrowRight className="w-3.5 h-3.5 text-[#D9A441]" /> About Us
+                  <FiArrowRight className="w-3.5 h-3.5 text-[#D9A441]" /> About
                 </Link>
               </li>
               <li>
@@ -56,8 +56,8 @@ export const Footer: React.FC = () => {
             <h4 className="text-base font-bold text-[#D9A441] mb-5 uppercase tracking-wider text-xs">Our Core Services</h4>
             <ul className="space-y-3 text-sm text-gray-300">
               <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#D9A441]" /> Marine Logistics</li>
+              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#D9A441]" /> Vessel Management</li>
               <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#D9A441]" /> Equipment Management</li>
-              <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#D9A441]" /> Procurement & Supply</li>
               <li className="flex items-center gap-2"><span className="w-1.5 h-1.5 rounded-full bg-[#D9A441]" /> Technical Consultancy</li>
             </ul>
           </div>
@@ -85,7 +85,7 @@ export const Footer: React.FC = () => {
 
         {/* Footer Bottom Bar */}
         <div className="pt-8 flex flex-col md:flex-row items-center justify-between text-xs text-gray-400 gap-4">
-          <p>© {new Date().getFullYear()} {companyData.name}. All rights reserved.</p>
+          <p>Copyright © {companyData.name}. All Rights Reserved. 2026</p>
           <div className="flex space-x-6">
             <Link to="/contact" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link to="/contact" className="hover:text-white transition-colors">Terms of Service</Link>

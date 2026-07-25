@@ -3,6 +3,7 @@ import { PageBanner } from '../components/common/PageBanner';
 import { CompanyStory } from '../components/about/CompanyStory';
 import { MissionVision } from '../components/about/MissionVision';
 import { Values } from '../components/about/Values';
+import { WhyDanak } from '../components/about/WhyDanak';
 import { CTASection } from '../components/common/CTASection';
 
 export const About: React.FC = () => {
@@ -15,6 +16,7 @@ export const About: React.FC = () => {
       <CompanyStory />
       <MissionVision />
       <Values />
+      <WhyDanak />
       <CTASection />
     </>
   );

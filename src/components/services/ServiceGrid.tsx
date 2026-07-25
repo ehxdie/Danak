@@ -15,19 +15,19 @@ export const ServiceGrid: React.FC = () => {
   return (
     <section className="py-20 bg-white">
       <div className="container-custom">
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
           {servicesData.map((service, index) => (
             <motion.div
               key={service.id}
               initial={{ opacity: 0, y: 20 }}
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true }}
-              transition={{ delay: index * 0.1 }}
+              transition={{ delay: index * 0.08 }}
               className="bg-[#F8FAFC] p-8 md:p-10 rounded-3xl border border-gray-100 flex flex-col justify-between"
             >
               <div>
                 <div className="w-16 h-16 rounded-2xl bg-blue-50 flex items-center justify-center mb-6">
-                  {iconMap[service.icon]}
+                  {iconMap[service.icon] || <FiAnchor className="w-8 h-8 text-[#0A2A52]" />}
                 </div>
                 <h3 className="text-2xl font-bold text-[#111827] mb-4">{service.title}</h3>
                 <p className="text-base text-[#4B5563] leading-relaxed mb-6">{service.description}</p>
@@ -42,7 +42,7 @@ export const ServiceGrid: React.FC = () => {
               </div>
 
               <div>
-                <Button to="/contact" variant="primary" size="md">
+                <Button to="/contact" variant="primary" size="md" className="w-full">
                   Enquire About Service
                 </Button>
               </div>

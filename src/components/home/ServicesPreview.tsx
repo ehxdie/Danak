@@ -14,6 +14,9 @@ const iconMap: Record<string, React.ReactNode> = {
 };
 
 export const ServicesPreview: React.FC = () => {
+  // Preview first 4 services on home page
+  const previewServices = servicesData.slice(0, 4);
+
   return (
     <section className="py-20 bg-[#F8FAFC]">
       <div className="container-custom">
@@ -30,7 +33,7 @@ export const ServicesPreview: React.FC = () => {
           viewport={{ once: true }}
           className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8"
         >
-          {servicesData.map((service) => (
+          {previewServices.map((service) => (
             <motion.div
               key={service.id}
               variants={fadeUp}
@@ -38,7 +41,7 @@ export const ServicesPreview: React.FC = () => {
             >
               <div>
                 <div className="w-14 h-14 rounded-xl bg-blue-50 flex items-center justify-center mb-6">
-                  {iconMap[service.icon]}
+                  {iconMap[service.icon] || <FiAnchor className="w-7 h-7 text-[#0A2A52]" />}
                 </div>
                 <h3 className="text-xl font-bold text-[#111827] mb-3">{service.title}</h3>
                 <p className="text-sm text-[#4B5563] leading-relaxed mb-6">{service.description}</p>

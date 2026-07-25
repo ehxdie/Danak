@@ -1,35 +1,35 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiShield, FiCheckCircle, FiUsers, FiClock, FiAward } from 'react-icons/fi';
+import { FiCheckCircle, FiShield, FiBriefcase, FiZap, FiUsers } from 'react-icons/fi';
 import { SectionTitle } from '../common/SectionTitle';
 import { staggerContainer, fadeUp } from '../../utils/animations';
 
 export const WhyChooseUs: React.FC = () => {
   const features = [
     {
+      icon: <FiBriefcase className="w-6 h-6 text-[#0A2A52]" />,
+      title: 'Professional & Dependable Service',
+      description: 'Transparent execution and standard-setting logistics operations.'
+    },
+    {
+      icon: <FiZap className="w-6 h-6 text-[#0A2A52]" />,
+      title: 'Industry-Focused Solutions',
+      description: 'Decades of domain expertise applied to West African oil, gas and logistics.'
+    },
+    {
       icon: <FiShield className="w-6 h-6 text-[#0A2A52]" />,
-      title: 'Safety First Culture',
-      description: 'Strict adherence to international maritime safety standards and HSE protocols.'
+      title: 'Strong Commitment to Safety',
+      description: 'Unyielding adherence to NIMASA, HSE, and international protocols.'
     },
     {
       icon: <FiCheckCircle className="w-6 h-6 text-[#0A2A52]" />,
-      title: 'Proven Reliability',
-      description: 'Consistently meeting project timelines with zero-compromise quality.'
+      title: 'Responsive Project Support',
+      description: '24/7 readiness to deploy assets and resolve offshore technical tasks.'
     },
     {
       icon: <FiUsers className="w-6 h-6 text-[#0A2A52]" />,
-      title: 'Expert Team',
-      description: 'Decades of combined offshore and maritime logistics expertise in Nigeria.'
-    },
-    {
-      icon: <FiClock className="w-6 h-6 text-[#0A2A52]" />,
-      title: '24/7 Operations',
-      description: 'Round-the-clock operational support for urgent vessel and cargo logistics.'
-    },
-    {
-      icon: <FiAward className="w-6 h-6 text-[#0A2A52]" />,
-      title: 'Client Centric',
-      description: 'Tailored solutions aligned directly with your project requirements.'
+      title: 'Client-Focused Approach',
+      description: 'Operational strategy engineered specifically around your project scope.'
     }
   ];
 
@@ -38,8 +38,8 @@ export const WhyChooseUs: React.FC = () => {
       <div className="container-custom">
         <SectionTitle 
           eyebrow="The Danak Advantage"
-          title="Why Choose Danak Logistics"
-          description="We combine industry knowledge with operational execution to maximize performance."
+          title="Why Choose Danak"
+          description="We combine operational excellence with industry-leading support to keep your operations moving."
         />
 
         <motion.div 
@@ -53,7 +53,7 @@ export const WhyChooseUs: React.FC = () => {
             <motion.div
               key={index}
               variants={fadeUp}
-              className="bg-[#F8FAFC] p-6 rounded-2xl border border-gray-100 text-center hover:border-blue-200 transition-all duration-300"
+              className="bg-[#F8FAFC] p-6 rounded-2xl border border-gray-100 text-center hover:border-[#D9A441] transition-all duration-300"
             >
               <div className="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center mx-auto mb-4">
                 {feature.icon}
