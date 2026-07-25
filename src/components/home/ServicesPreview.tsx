@@ -142,6 +142,8 @@ export const ServicesPreview: React.FC = () => {
                     <img
                       src={currentService.image}
                       alt={currentService.title}
+                      loading="lazy"
+                      decoding="async"
                       className="w-full h-full object-cover object-center transform group-hover:scale-103 transition-transform duration-700"
                     />
                     <div className="absolute inset-0 bg-gradient-to-t from-[#061427]/70 via-transparent to-transparent pointer-events-none" />

@@ -43,6 +43,9 @@ export const Hero: React.FC = () => {
               <img 
                 src="https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1200&q=80" 
                 alt="Offshore Marine Logistics Cargo Vessel" 
+                loading="eager"
+                decoding="async"
+                fetchPriority="high"
                 className="w-full h-[400px] md:h-[500px] object-cover hover:scale-105 transition-transform duration-700"
               />
             </div>

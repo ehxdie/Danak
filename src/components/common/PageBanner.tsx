@@ -11,7 +11,7 @@ interface PageBannerProps {
 export const PageBanner: React.FC<PageBannerProps> = ({
   title,
   subtitle,
-  image = 'https://images.unsplash.com/photo-1544620347-c4fd4a3d5957?auto=format&fit=crop&w=1600&q=80',
+  image = '/images/maritime_banner.png',
   pageName
 }) => {
   const location = useLocation();
@@ -29,7 +29,13 @@ export const PageBanner: React.FC<PageBannerProps> = ({
     <section className="relative min-h-[340px] md:min-h-[400px] flex items-end pb-14 bg-[#051329] text-white overflow-hidden border-b border-[#1E3E62]">
       {/* Background Image */}
       <div className="absolute inset-0 z-0">
-        <img src={image} alt={title} className="w-full h-full object-cover" />
+        <img 
+          src={image} 
+          alt={title} 
+          loading="eager" 
+          decoding="async" 
+          className="w-full h-full object-cover object-center" 
+        />
       </div>
       
       {/* Dark Heavy Backdrop Overlay to prevent any text clashing */}
