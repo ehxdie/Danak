@@ -10,7 +10,7 @@ const servicesList = [
     title: 'Marine Logistics',
     subtitle: 'Offshore & Coastal Support',
     description: 'Reliable logistics support for offshore and marine operations.',
-    image: '/images/services/marine_logistics.png',
+    image: '/images/services/marine_logistics.webp',
     icon: <FiAnchor className="w-5 h-5" />
   },
   {
@@ -19,7 +19,7 @@ const servicesList = [
     title: 'Equipment Management',
     subtitle: 'Asset Deployment & Support',
     description: 'Management, coordination and support for marine equipment and operational assets.',
-    image: '/images/services/equipment_management.png',
+    image: '/images/services/equipment_management.webp',
     icon: <FiTruck className="w-5 h-5" />
   },
   {
@@ -28,7 +28,7 @@ const servicesList = [
     title: 'Procurement & Supply',
     subtitle: 'Global Sourcing & Delivery',
     description: 'Sourcing and supply of marine equipment, materials and operational requirements.',
-    image: '/images/services/procurement_supply.png',
+    image: '/images/services/procurement_supply.webp',
     icon: <FiBox className="w-5 h-5" />
   },
   {
@@ -37,7 +37,7 @@ const servicesList = [
     title: 'Consultancy & Project Support',
     subtitle: 'Strategic Advisory & Governance',
     description: 'Business advisory, regulatory support and project coordination for maritime and offshore operations.',
-    image: '/images/services/consultancy_support.png',
+    image: '/images/services/consultancy_support.webp',
     icon: <FiBriefcase className="w-5 h-5" />
   }
 ];

@@ -17,6 +17,8 @@ export const CompanyStory: React.FC = () => {
               <img 
                 src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1000&q=80" 
                 alt="Danak Company Operations" 
+                loading="lazy"
+                decoding="async"
                 className="w-full h-[400px] object-cover"
               />
             </div>

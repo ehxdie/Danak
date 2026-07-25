@@ -21,6 +21,8 @@ export const AboutPreview: React.FC = () => {
               <img 
                 src="https://images.unsplash.com/photo-1578575437130-527eed3abbec?auto=format&fit=crop&w=1000&q=80" 
                 alt="Offshore Marine Operations" 
+                loading="lazy"
+                decoding="async"
                 className="w-full h-[380px] md:h-[450px] object-cover"
               />
             </div>
