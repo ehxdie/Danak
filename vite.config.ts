@@ -9,9 +9,13 @@ export default defineConfig({
     // Split vendor chunks for better caching
     rollupOptions: {
       output: {
-        manualChunks: {
-          'react-vendor': ['react', 'react-dom', 'react-router-dom'],
-          'motion': ['framer-motion'],
+        manualChunks(id) {
+          if (id.includes('node_modules/react/') || id.includes('node_modules/react-dom/') || id.includes('node_modules/react-router-dom/')) {
+            return 'react-vendor';
+          }
+          if (id.includes('node_modules/framer-motion/')) {
+            return 'motion';
+          }
         },
       },
     },
