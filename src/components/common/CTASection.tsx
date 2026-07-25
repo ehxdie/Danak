@@ -5,7 +5,7 @@ import { fadeUp } from '../../utils/animations';
 
 export const CTASection: React.FC = () => {
   return (
-    <section className="py-24 bg-[#0A2A52] text-white relative overflow-hidden">
+    <section className="py-20 bg-[#0A2A52] text-white relative overflow-hidden">
       <div className="container-custom relative z-10 text-center max-w-3xl mx-auto">
         <motion.div
           variants={fadeUp}
@@ -13,10 +13,10 @@ export const CTASection: React.FC = () => {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-5xl font-extrabold tracking-tight mb-6 text-white">
+          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-4 text-[#D9A441]">
             Ready to discuss your next project?
           </h2>
-          <p className="text-lg text-gray-200 mb-10 leading-relaxed">
+          <p className="text-base text-gray-200 mb-8 leading-relaxed">
             Our team is ready to support your marine logistics, vessel chartering, and offshore operational needs across Nigeria.
           </p>
           <Button to="/contact" variant="secondary" size="lg">
@@ -27,3 +27,5 @@ export const CTASection: React.FC = () => {
     </section>
   );
 };
+
+

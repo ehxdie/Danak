@@ -1,14 +1,17 @@
 import React from 'react';
+import { SEO } from '../components/common/SEO';
 import { PageBanner } from '../components/common/PageBanner';
 import { ContactForm } from '../components/contact/ContactForm';
 import { ContactInfo } from '../components/contact/ContactInfo';
-// import { GoogleMap } from '../components/contact/GoogleMap';
-// import { FAQ } from '../components/contact/FAQ';
 import { CTASection } from '../components/common/CTASection';
 
 export const Contact: React.FC = () => {
   return (
     <>
+      <SEO 
+        title="Contact Us | Danak Logistics & Resources Ltd"
+        description="Get in touch with Danak Logistics for marine logistics enquiries, vessel chartering, offshore equipment rental, and technical consultancy in Nigeria."
+      />
       <PageBanner 
         title="Let's Work Together" 
         subtitle="Whether you require marine logistics, consultancy or operational support, our team is ready to assist."
@@ -29,3 +32,4 @@ export const Contact: React.FC = () => {
     </>
   );
 };
+
