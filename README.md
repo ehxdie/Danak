@@ -72,8 +72,4 @@ export default defineConfig([
   },
 ])
 
-```
-Notes
-- Change header and footer text colors
-- The footer is ugly
-- Add a bugger to the header in mobile mode to see a dropdown of all the pages you can navigate to  
+``` 

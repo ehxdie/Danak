@@ -13,7 +13,7 @@ export const CTASection: React.FC = () => {
           whileInView="visible"
           viewport={{ once: true }}
         >
-          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-4 text-[#D9A441]">
+          <h2 className="text-3xl md:text-4xl font-extrabold tracking-tight mb-4 text-[#D9A441]" style={{ color: '#D9A441' }}>
             Ready to discuss your next project?
           </h2>
           <p className="text-base text-gray-200 mb-8 leading-relaxed">
