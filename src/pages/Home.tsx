@@ -11,7 +11,7 @@ export const Home: React.FC = () => {
     <>
       <SEO 
         title="Marine Logistics & Offshore Support Solutions"
-        description="Danak Logistics & Resources Ltd provides premier marine logistics, vessel management, equipment support, and offshore consultancy across Nigeria."
+        description="Danak Logistics resource Ltd provides premier marine logistics, vessel management, equipment support, and offshore consultancy across Nigeria."
       />
       <Hero />
       <AboutPreview />

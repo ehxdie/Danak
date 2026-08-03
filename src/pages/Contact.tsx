@@ -9,7 +9,7 @@ export const Contact: React.FC = () => {
   return (
     <>
       <SEO 
-        title="Contact Us | Danak Logistics & Resources Ltd"
+        title="Contact Us | Danak Logistics resource Ltd"
         description="Get in touch with Danak Logistics for marine logistics enquiries, vessel chartering, offshore equipment rental, and technical consultancy in Nigeria."
       />
       <PageBanner 

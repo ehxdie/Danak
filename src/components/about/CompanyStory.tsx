@@ -34,7 +34,7 @@ export const CompanyStory: React.FC = () => {
               About Us
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#111827] mb-6">
-              About Danak Logistics & Resources Ltd
+              About Danak Logistics resource Ltd
             </h2>
             <p className="text-base text-[#4B5563] leading-relaxed mb-6">
               {companyData.description}

@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
-import { FiChevronRight, FiAnchor, FiTruck, FiBox, FiBriefcase } from 'react-icons/fi';
+import { FiChevronRight, FiAnchor, FiTruck, FiBox, FiBriefcase, FiHome } from 'react-icons/fi';
 
 const servicesList = [
   {
@@ -39,6 +39,15 @@ const servicesList = [
     description: 'Business advisory, regulatory support and project coordination for maritime and offshore operations.',
     image: '/images/services/consultancy_support.webp',
     icon: <FiBriefcase className="w-5 h-5" />
+  },
+  {
+    id: 'facilities-management',
+    number: '05',
+    title: 'Facilities Management',
+    subtitle: 'Property & Asset Maintenance',
+    description: 'Keeping Properties Performing at Their Best through comprehensive maintenance and operational management.',
+    image: '/images/services/facilities_management.webp',
+    icon: <FiHome className="w-5 h-5" />
   }
 ];
 
@@ -57,7 +66,7 @@ export const ServicesPreview: React.FC = () => {
               Our Services
             </h2>
             <p className="text-base text-gray-600 leading-relaxed">
-              Delivering superior maritime solutions, Danak Logistics & Resources Ltd leads with best practices, industry insights, and strategic partnerships.
+              Delivering superior maritime solutions, Danak Logistics resource Ltd leads with best practices, industry insights, and strategic partnerships.
             </p>
           </div>
 

@@ -11,7 +11,7 @@ export const About: React.FC = () => {
     <>
       <SEO 
         title="About Us"
-        description="Learn about Danak Logistics & Resources Ltd - our history, mission, vision, and commitment to maritime excellence in Nigeria."
+        description="Learn about Danak Logistics resource Ltd - our history, mission, vision, and commitment to maritime excellence in Nigeria."
       />
       <PageBanner 
         title="About Danak Logistics" 

@@ -45,7 +45,7 @@ export const AboutPreview: React.FC = () => {
               {companyData.description}
             </p>
             <p className="text-base text-[#4B5563] leading-relaxed mb-8">
-              We focus on operational safety, cost efficiency, and delivering high-value solutions to energy operators and maritime contractors throughout Nigeria.
+              We work with businesses across the maritime, offshore, logistics and energy sectors, delivering services with professionalism, safety and operational excellence.
             </p>
             <Button to="/about" variant="outline">
               Learn More About Us
@@ -57,3 +57,5 @@ export const AboutPreview: React.FC = () => {
     </section>
   );
 };
+
+ 

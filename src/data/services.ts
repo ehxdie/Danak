@@ -42,5 +42,12 @@ export const servicesData: Service[] = [
     slug: 'project-support',
     description: 'End-to-end operational support for marine and offshore projects, from planning and coordination through execution and ongoing operational assistance.',
     icon: 'FiTrendingUp'
+  },
+  {
+    id: 'facilities-management',
+    title: 'Facilities Management',
+    slug: 'facilities-management',
+    description: 'Danak Logistics Resource Ltd delivers integrated facilities management solutions that preserve asset value, improve operational efficiency, and provide safe, functional environments for tenants, employees, and visitors. We support commercial, residential, industrial, and mixed-use developments with tailored management services designed to maximise the performance and longevity of every property.\n\nWhether managing office complexes, shopping malls, residential estates, or specialised facilities, we provide dependable day-to-day operational support backed by preventive maintenance, regulatory compliance, and responsive service delivery.',
+    icon: 'FiHome'
   }
 ];
