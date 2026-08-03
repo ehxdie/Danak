@@ -45,7 +45,7 @@ const servicesList = [
     number: '05',
     title: 'Facilities Management',
     subtitle: 'Property & Asset Maintenance',
-    description: 'Keeping Properties Performing at Their Best through comprehensive maintenance and operational management.',
+    description: 'Keeping Properties Performing at Their Best',
     image: '/images/services/facilities_management.webp',
     icon: <FiHome className="w-5 h-5" />
   }
