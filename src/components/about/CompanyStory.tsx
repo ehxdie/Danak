@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { companyData } from '../../data/company';
+// import { companyData } from '../../data/company';
 
 export const CompanyStory: React.FC = () => {
   return (
@@ -37,7 +37,9 @@ export const CompanyStory: React.FC = () => {
               About Danak Logistics resource Ltd
             </h2>
             <p className="text-base text-[#4B5563] leading-relaxed mb-6">
-              {companyData.description}
+              Danak Logistics & Resources Ltd delivers integrated marine logistics, offshore support and 
+consultancy services designed to help businesses operate efficiently across Nigeria's maritime 
+industry.
             </p>
             <p className="text-base text-[#4B5563] leading-relaxed">
               We combine practical industry knowledge with a commitment to safety, professionalism and operational excellence, enabling our clients to focus on their core business while we provide dependable support.
