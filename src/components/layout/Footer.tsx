@@ -12,7 +12,8 @@ import {
   FiChevronRight
 } from 'react-icons/fi';
 import { companyData } from '../../data/company';
-
+import danakLogo from '../../assets/danak_logo_transparent_sharp.png';
+ 
 export const Footer: React.FC = () => {
   const scrollToTop = () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
@@ -31,12 +32,7 @@ export const Footer: React.FC = () => {
           {/* Column 1: Brand Info (LG: 4 cols) */}
           <div className="lg:col-span-4 space-y-6">
             <Link to="/" className="inline-flex items-center gap-3">
-              <span className="w-10 h-10 rounded-xl bg-[#D9A441] text-[#0A2A52] flex items-center justify-center font-extrabold text-xl shadow-md">
-                D
-              </span>
-              <span className="text-2xl font-extrabold text-white tracking-tight">
-                Danak <span className="text-[#D9A441] font-normal">Logistics</span>
-              </span>
+              <img src={danakLogo} alt={companyData.name} className="h-20 w-auto object-contain drop-shadow-md" />
             </Link>
             
             <p className="text-sm text-gray-300 leading-relaxed max-w-sm">

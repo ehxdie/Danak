@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
 import { FiMenu, FiX } from 'react-icons/fi';
 import { companyData } from '../../data/company';
+import danakLogo from '../../assets/danak_logo_transparent_sharp.png';
 
 export const Navbar: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -16,15 +17,10 @@ export const Navbar: React.FC = () => {
 
   return (
     <header className="sticky top-0 z-50 bg-[#0A2A52] text-white border-b border-[#174C7A] shadow-md">
-      <div className="container-custom flex items-center justify-between h-20">
+      <div className="container-custom flex items-center justify-between h-24">
         {/* Logo */}
         <Link to="/" className="text-xl font-bold tracking-tight text-white flex items-center gap-3">
-          <span className="w-10 h-10 rounded-xl bg-[#D9A441] text-[#0A2A52] flex items-center justify-center font-extrabold text-xl shadow-xs">
-            D
-          </span>
-          <span className="text-white font-extrabold">
-            {companyData.name.split(' ')[0]} <span className="text-[#D9A441] font-normal">Logistics</span>
-          </span>
+          <img src={danakLogo} alt={companyData.name} className="h-20 w-auto object-contain drop-shadow-md" />
         </Link>
 
         {/* Desktop Nav */}
