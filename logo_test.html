@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Danak Logo SVG Test</title>
+  <style>
+    body {
+      background-color: #0A2A52;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      gap: 60px;
+    }
+    .logo-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 16px;
+      color: white;
+      font-family: Arial, sans-serif;
+    }
+    .label { font-size: 14px; opacity: 0.7; }
+  </style>
+</head>
+<body>
+  <div class="logo-container">
+    <div class="label">SVG Logo (Large)</div>
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 320" width="240" height="320">
+      <defs>
+        <clipPath id="starClip">
+          <rect x="0" y="0" width="240" height="320"/>
+          <!-- Star cutout - inverted -->
+        </clipPath>
+      </defs>
+
+      <!-- Rounded Square Border -->
+      <rect
+        x="28" y="12"
+        width="184" height="184"
+        rx="24" ry="24"
+        fill="none"
+        stroke="#D9A441"
+        strokeWidth="6"
+      />
+
+      <!-- D-shape body with star punched out -->
+      <g>
+        <!-- Main D shape - speech bubble style -->
+        <path d="
+          M 70 44
+          L 100 44
+          L 88 58
+          L 80 58
+          L 80 72
+          C 80 72 80 50 105 44
+          C 130 38 172 52 176 95
+          C 180 138 150 170 120 174
+          L 68 174
+          L 90 148
+          C 90 148 78 162 78 140
+          L 78 58
+          L 70 44
+          Z
+        " fill="#D9A441" />
+
+        <!-- Simplified cleaner D shape -->
+      </g>
+
+      <!-- DANAK Text -->
+      <text
+        x="120" y="248"
+        text-anchor="middle"
+        fill="#D9A441"
+        font-family="'Arial Black', 'Helvetica Neue', sans-serif"
+        font-weight="900"
+        font-size="52"
+        letter-spacing="3"
+      >DANAK</text>
+
+      <!-- Subtitle -->
+      <text
+        x="120" y="278"
+        text-anchor="middle"
+        fill="#D9A441"
+        font-family="'Arial', sans-serif"
+        font-weight="600"
+        font-size="14"
+        letter-spacing="4"
+      >LOGISTICS RESOURCE LTD</text>
+    </svg>
+  </div>
+
+  <div class="logo-container">
+    <div class="label">Reference PNG</div>
+    <img src="src/assets/Danak Resource Gold Logo.png" width="240" height="240" style="object-fit: contain;" />
+  </div>
+</body>
+</html>
