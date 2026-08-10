@@ -4,8 +4,18 @@ import { companyData } from '../../data/company';
 
 export const ContactInfo: React.FC = () => {
   const items = [
-    { icon: <FiMapPin />, title: 'Head Office Address', details: companyData.address },
-    { icon: <FiMail />, title: 'Email Address', details: companyData.email },
+    { 
+      icon: <FiMapPin />, 
+      title: 'Lagos Office Address', 
+      details: (
+        <>
+          Km 34 Lekki-Epe Expressway<br />
+          Opposite Emperor Estate<br />
+          Sangotedo, Lekki
+        </>
+      ) 
+    },
+    { icon: <FiMail />, title: 'Email Address', details: <a href={`mailto:${companyData.email}`} className="hover:underline">{companyData.email}</a> },
     { icon: <FiPhone />, title: 'Phone Line', details: companyData.phone },
   ];
 
