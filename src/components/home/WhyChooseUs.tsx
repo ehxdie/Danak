@@ -44,7 +44,7 @@ export const WhyChooseUs: React.FC = () => {
   ];
 
   return (
-    <section className="py-20 bg-white">
+    <section className="py-20 bg-slate-50/70 border-y border-slate-200/60">
       <div className="container-custom">
         <SectionTitle 
           eyebrow="The Danak Advantage"
@@ -57,20 +57,26 @@ export const WhyChooseUs: React.FC = () => {
           initial="hidden"
           whileInView="visible"
           viewport={{ once: true }}
-          className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-5 gap-6"
+          className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6"
         >
-          {features.map((feature, index) => (
-            <motion.div
-              key={index}
-              variants={fadeUp}
-              className="bg-[#F8FAFC] p-6 rounded-2xl border border-gray-100 text-center hover:border-[#D9A441] transition-all duration-300"
-            >
-              <div className="w-12 h-12 rounded-full bg-blue-50 flex items-center justify-center mx-auto mb-4">
-                {feature.icon}
-              </div>
-              <h3 className="text-base font-bold text-[#111827] mb-2">{feature.title}</h3>
-            </motion.div>
-          ))}
+          {features.map((feature, index) => {
+            const isLastOdd = index === features.length - 1;
+            return (
+              <motion.div
+                key={index}
+                variants={fadeUp}
+                className={`bg-white p-7 rounded-2xl border border-slate-200/80 shadow-xs hover:shadow-md hover:border-[#0A2A52]/30 transition-all duration-300 flex flex-col ${
+                  isLastOdd ? 'md:col-span-2 lg:col-span-3 lg:w-2/3 lg:mx-auto' : ''
+                }`}
+              >
+                <div className="w-12 h-12 rounded-xl bg-[#0A2A52]/5 text-[#0A2A52] flex items-center justify-center mb-5 shrink-0">
+                  {feature.icon}
+                </div>
+                <h3 className="text-lg font-bold text-[#0A2A52] mb-2">{feature.title}</h3>
+                <p className="text-sm text-gray-600 leading-relaxed">{feature.description}</p>
+              </motion.div>
+            );
+          })}
         </motion.div>
       </div>
     </section>
