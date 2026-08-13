@@ -8,28 +8,38 @@ export const WhyChooseUs: React.FC = () => {
   const features = [
     {
       icon: <FiBriefcase className="w-6 h-6 text-[#0A2A52]" />,
-      title: 'Professional & Dependable Service',
-      // description: 'Transparent execution and standard-setting logistics operations.'
+      title: 'Reliable Service Delivery',
+      description: 'We take a practical, hands-on approach to delivering dependable solutions across logistics, procurement, facilities, equipment, and project support.'
     },
     {
       icon: <FiZap className="w-6 h-6 text-[#0A2A52]" />,
-      title: 'Industry-Focused Solutions',
-      // description: 'Decades of domain expertise applied to West African oil, gas and logistics.'
+      title: 'Integrated Solutions',
+      description: 'From sourcing and supply to facilities and marine operations, we connect complementary services to address your operational needs in one place.'
     },
     {
       icon: <FiShield className="w-6 h-6 text-[#0A2A52]" />,
       title: 'Strong Commitment to Safety',
-      // description: 'Unyielding adherence to NIMASA, HSE, and international protocols.'
+      description: 'Unyielding adherence to NIMASA, HSE, and international protocols.'
     },
     {
       icon: <FiCheckCircle className="w-6 h-6 text-[#0A2A52]" />,
+      title: 'Safety & Professional Standards',
+      description: 'Safety, accountability and professionalism are built into how we work, with a commitment to responsible service delivery across every engagement.'
+    },
+    {
+      icon: <FiUsers className="w-6 h-6 text-[#0A2A52]" />,
       title: 'Responsive Project Support',
-      // description: '24/7 readiness to deploy assets and resolve offshore technical tasks.'
+      description: 'We understand that operational needs can change quickly. Our team works closely with clients to respond efficiently and keep projects moving forward.'
+    },
+    {
+      icon: <FiUsers className="w-6 h-6 text-[#0A2A52]" />,
+      title: 'Strong Resource Network',
+      description: 'We connect clients with trusted suppliers, service providers, equipment and operational resources to get the right solutions in place.'
     },
     {
       icon: <FiUsers className="w-6 h-6 text-[#0A2A52]" />,
       title: 'Client-Focused Approach',
-      // description: 'Operational strategy engineered specifically around your project scope.'
+      description: 'Every business has different requirements. We listen, understand the challenge and tailor our approach to deliver solutions that are practical, efficient and fit for purpose. '
     }
   ];
 
@@ -38,8 +48,8 @@ export const WhyChooseUs: React.FC = () => {
       <div className="container-custom">
         <SectionTitle 
           eyebrow="The Danak Advantage"
-          title="Why Choose Danak"
-          description="We combine operational excellence with industry-leading support to keep your operations moving."
+          title="Built to Deliver. Ready to Support."
+          description="We bring together the resources, expertise, and operational coordination businesses need to get things done — reliably, efficiently, and safely."
         />
 
         <motion.div 

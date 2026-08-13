@@ -39,13 +39,20 @@ export const AboutPreview: React.FC = () => {
               About Danak Logistics
             </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#111827] mb-6">
-              Your Trusted Maritime & Offshore Partner
+              Your Reliable Partner for Logistics & Operations
             </h2>
             <p className="text-base md:text-lg text-[#4B5563] leading-relaxed mb-6">
               {companyData.description}
             </p>
             <p className="text-base text-[#4B5563] leading-relaxed mb-8">
-              We work with businesses across the maritime, offshore, logistics and energy sectors, delivering services with professionalism, safety and operational excellence.
+              Danak Logistics Resource Ltd is a Nigerian company providing integrated logistics, operational,
+              and business support solutions across the maritime, energy, construction, commercial, and
+              infrastructure sectors.
+              We help businesses source what they need, manage what they have, and execute what matters
+              — from procurement and equipment management to facilities, marine logistics, and project
+              support.
+              By connecting trusted resources, capable partners, and practical expertise, we deliver efficient,
+              dependable solutions tailored to the needs of each client.
             </p>
             <Button to="/about" variant="outline">
               Learn More About Us

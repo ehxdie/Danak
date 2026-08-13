@@ -18,16 +18,18 @@ export const Hero: React.FC = () => {
               Your Logistics Solutions Partner
             </span>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#111827] leading-[1.1] tracking-tight mb-6">
-              Reliable Marine Logistics & Offshore Support Solutions
+              Connecting Resources. Delivering Solutions.
             </h1>
             <p className="text-lg md:text-xl text-[#4B5563] mb-8 leading-relaxed max-w-xl">
-              Danak Logistics resource Ltd provides dependable marine logistics, offshore support, 
-equipment management, procurement, and consultancy services across Nigeria's maritime and 
-energy sectors. 
+              Danak Logistics Resource Ltd provides reliable solutions across logistics, marine services,
+              equipment management, procurement, facilities management, and project consultancy.
+              We connect the people, resources and expertise businesses need to operate efficiently —
+              delivering practical, dependable support across Nigeria’s maritime, energy, construction and
+              commercial sectors.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
               <Button to="/services" variant="primary" size="lg">
-                Our Services
+                Explore Our Services
               </Button>
               <Button to="/contact" variant="secondary" size="lg">
                 Contact Us

@@ -7,9 +7,9 @@ const servicesList = [
   {
     id: 'marine-logistics',
     number: '01',
-    title: 'Marine Logistics',
+    title: 'Marine & Logistics',
     subtitle: 'Offshore & Coastal Support',
-    description: 'Reliable logistics support for offshore and marine operations.',
+    description: 'Marine logistics, offshore support, vessel coordination, transportation and related operational services.',
     image: '/images/services/marine_logistics.webp',
     icon: <FiAnchor className="w-5 h-5" />
   },
@@ -18,7 +18,7 @@ const servicesList = [
     number: '02',
     title: 'Equipment Management',
     subtitle: 'Asset Deployment & Support',
-    description: 'Management, coordination and support for marine equipment and operational assets.',
+    description: 'Equipment sourcing, deployment, coordination, maintenance support and operational management.',
     image: '/images/services/equipment_management.webp',
     icon: <FiTruck className="w-5 h-5" />
   },
@@ -27,27 +27,36 @@ const servicesList = [
     number: '03',
     title: 'Procurement & Supply',
     subtitle: 'Global Sourcing & Delivery',
-    description: 'Sourcing and supply of marine equipment, materials and operational requirements.',
+    description: 'Strategic sourcing, vendor coordination, supply of equipment, materials, and operational requirements.',
     image: '/images/services/procurement_supply.webp',
     icon: <FiBox className="w-5 h-5" />
   },
   {
-    id: 'consultancy-project-support',
+    id: 'facilities-management',
     number: '04',
-    title: 'Consultancy & Project Support',
-    subtitle: 'Strategic Advisory & Governance',
-    description: 'Business advisory, regulatory support and project coordination for maritime and offshore operations.',
+    title: 'Facilities Management',
+    subtitle: 'Property & Asset Maintenance',
+    description: 'Integrated management of commercial, office, and property facilities, including maintenance coordination, security, cleaning, utilities, and day-to-day operational support.',
+    image: '/images/services/facilities_management.webp',
+    icon: <FiHome className="w-5 h-5" />
+  },
+  {
+    id: 'project-operations-support',
+    number: '05',
+    title: 'Project & Operations Support',
+    subtitle: 'Planning, Coordination & Execution',
+    description: 'Practical support for construction, infrastructure, energy, and commercial projects — from planning and coordination to execution.',
     image: '/images/services/consultancy_support.webp',
     icon: <FiBriefcase className="w-5 h-5" />
   },
   {
-    id: 'facilities-management',
-    number: '05',
-    title: 'Facilities Management',
-    subtitle: 'Property & Asset Maintenance',
-    description: 'Keeping Properties Performing at Their Best',
-    image: '/images/services/facilities_management.webp',
-    icon: <FiHome className="w-5 h-5" />
+    id: 'consultancy-advisory',
+    number: '06',
+    title: 'Consultancy & Advisory',
+    subtitle: 'Strategic Advisory & Governance',
+    description: 'Operational, logistics, and project advisory services that help clients make better decisions and execute efficiently.',
+    image: '/images/services/consultancy_support.webp',
+    icon: <FiBriefcase className="w-5 h-5" />
   }
 ];
 
@@ -66,7 +75,13 @@ export const ServicesPreview: React.FC = () => {
               Our Services
             </h2>
             <p className="text-base text-gray-600 leading-relaxed">
-              Delivering superior maritime solutions, Danak Logistics resource Ltd leads with best practices, industry insights, and strategic partnerships.
+              Practical Solutions. Reliable Execution.
+            </p>
+            <p className="mt-4 text-base text-gray-600 leading-relaxed">
+              Danak provides a range of integrated services designed to support business operations from
+              procurement and logistics to property, facilities, and project management.
+              Whether you need to source critical equipment, manage a facility, coordinate marine operations,
+              or support a project, we provide the resources and operational coordination to get the job done.
             </p>
           </div>
 
