@@ -17,14 +17,15 @@ export const Hero: React.FC = () => {
             <span className="text-xs font-bold uppercase tracking-widest text-[#0A2A52] bg-blue-50 px-3 py-1.5 rounded-full mb-6 inline-block border border-blue-100">
               Your Logistics Solutions Partner
             </span>
-            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold text-[#111827] leading-[1.1] tracking-tight mb-6">
-              Connecting Resources. Delivering Solutions.
+            <h1 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold text-[#111827] leading-[1.15] tracking-tight mb-6">
+              <span className="block">Connecting Resources.</span>
+              <span className="text-[#0A2A52]">Delivering Solutions.</span>
             </h1>
-            <p className="text-lg md:text-xl text-[#4B5563] mb-4 leading-relaxed max-w-xl text-justify">
+            <p className="text-base sm:text-lg text-[#4B5563] mb-4 leading-relaxed max-w-xl">
               Danak Logistics Resource Ltd provides reliable solutions across logistics, marine services,
               equipment management, procurement, facilities management, and project consultancy.
             </p>
-            <p className="text-lg md:text-xl text-[#4B5563] mb-8 leading-relaxed max-w-xl text-justify">
+            <p className="text-base sm:text-lg text-[#4B5563] mb-8 leading-relaxed max-w-xl">
               We connect the people, resources and expertise businesses need to operate efficiently —
               delivering practical, dependable support across Nigeria’s maritime, energy, construction and
               commercial sectors.

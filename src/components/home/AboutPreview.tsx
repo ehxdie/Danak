@@ -40,17 +40,17 @@ export const AboutPreview: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#111827] mb-6">
               Your Reliable Partner for Logistics & Operations
             </h2>
-            <p className="text-base text-[#4B5563] leading-relaxed mb-4 text-justify">
+            <p className="text-base text-[#4B5563] leading-relaxed mb-4">
               Danak Logistics Resource Ltd is a Nigerian company providing integrated logistics, operational,
               and business support solutions across the maritime, energy, construction, commercial, and
               infrastructure sectors.
             </p>
-            <p className="text-base text-[#4B5563] leading-relaxed mb-4 text-justify">
+            <p className="text-base text-[#4B5563] leading-relaxed mb-4">
               We help businesses source what they need, manage what they have, and execute what matters
               — from procurement and equipment management to facilities, marine logistics, and project
               support.
             </p>
-            <p className="text-base text-[#4B5563] leading-relaxed mb-8 text-justify">
+            <p className="text-base text-[#4B5563] leading-relaxed mb-8">
               By connecting trusted resources, capable partners, and practical expertise, we deliver efficient,
               dependable solutions tailored to the needs of each client.
             </p>
