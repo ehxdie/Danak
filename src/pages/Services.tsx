@@ -8,12 +8,12 @@ export const Services: React.FC = () => {
   return (
     <>
       <SEO 
-        title="Our Services | Marine Logistics & Vessel Support"
-        description="Comprehensive marine logistics, vessel management, equipment rental, procurement, and offshore consultancy services in Nigeria."
+        title="Our Services | Marine & Logistics, Operations & Facilities Management"
+        description="Comprehensive marine & logistics, equipment management, procurement & supply, facilities management, project & operations support, and consultancy & advisory in Nigeria."
       />
       <PageBanner 
         title="Our Services" 
-        subtitle="End-to-end marine logistics, equipment rental, procurement, and technical consultancy."
+        subtitle="Practical solutions and reliable execution across marine logistics, facilities, equipment, and project operations."
       />
       <ServiceGrid />
       <CTASection />

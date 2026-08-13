@@ -1,6 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
-import { FiAnchor, FiTruck, FiBox, FiTrendingUp } from 'react-icons/fi';
+import { FiAnchor, FiTruck, FiBox, FiTrendingUp, FiHome } from 'react-icons/fi';
 import { servicesData } from '../../data/services';
 import { Button } from '../common/Button';
 
@@ -8,7 +8,8 @@ const iconMap: Record<string, React.ReactNode> = {
   FiAnchor: <FiAnchor className="w-8 h-8 text-[#0A2A52]" />,
   FiTruck: <FiTruck className="w-8 h-8 text-[#0A2A52]" />,
   FiBox: <FiBox className="w-8 h-8 text-[#0A2A52]" />,
-  FiTrendingUp: <FiTrendingUp className="w-8 h-8 text-[#0A2A52]" />
+  FiTrendingUp: <FiTrendingUp className="w-8 h-8 text-[#0A2A52]" />,
+  FiHome: <FiHome className="w-8 h-8 text-[#0A2A52]" />
 };
 
 export const ServiceGrid: React.FC = () => {

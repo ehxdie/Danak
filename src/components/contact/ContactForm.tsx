@@ -64,11 +64,12 @@ export const ContactForm: React.FC = () => {
         const errorText = await response.text();
         throw new Error(errorText || 'Failed to send email');
       }
-    } catch (err: any) {
+    } catch (err: unknown) {
       console.error('EmailJS error:', err);
       setLoading(false);
+      const message = err instanceof Error ? err.message : undefined;
       setErrorMessage(
-        err?.message || 'Failed to send message via EmailJS. Please try again or contact us directly via email.'
+        message || 'Failed to send message via EmailJS. Please try again or contact us directly via email.'
       );
     }
   };
@@ -169,12 +170,12 @@ export const ContactForm: React.FC = () => {
           value={formData.service}
           onChange={(e) => setFormData({ ...formData, service: e.target.value })}
         >
-          <option value="marine-logistics">Marine Logistics</option>
-          <option value="vessel-management">Vessel Management</option>
+          <option value="marine-logistics">Marine & Logistics</option>
           <option value="equipment-management">Equipment Management</option>
           <option value="procurement-supply">Procurement & Supply</option>
-          <option value="consultancy">Consultancy</option>
-          <option value="project-support">Project Support</option>
+          <option value="facilities-management">Facilities Management</option>
+          <option value="project-support">Project & Operations Support</option>
+          <option value="consultancy">Consultancy & Advisory</option>
         </select>
       </div>
 
