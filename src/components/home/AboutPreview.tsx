@@ -1,7 +1,6 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Button } from '../common/Button';
-import { companyData } from '../../data/company';
 import { fadeRight, fadeLeft } from '../../utils/animations';
 
 export const AboutPreview: React.FC = () => {
@@ -41,20 +40,17 @@ export const AboutPreview: React.FC = () => {
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#111827] mb-6">
               Your Reliable Partner for Logistics & Operations
             </h2>
-            <p className="text-base md:text-lg text-[#4B5563] leading-relaxed mb-6">
-              {companyData.description}
-            </p>
-            <p className="text-base text-[#4B5563] leading-relaxed mb-4">
+            <p className="text-base text-[#4B5563] leading-relaxed mb-4 text-justify">
               Danak Logistics Resource Ltd is a Nigerian company providing integrated logistics, operational,
               and business support solutions across the maritime, energy, construction, commercial, and
               infrastructure sectors.
             </p>
-            <p className="text-base text-[#4B5563] leading-relaxed mb-4">
+            <p className="text-base text-[#4B5563] leading-relaxed mb-4 text-justify">
               We help businesses source what they need, manage what they have, and execute what matters
               — from procurement and equipment management to facilities, marine logistics, and project
               support.
             </p>
-            <p className="text-base text-[#4B5563] leading-relaxed mb-8">
+            <p className="text-base text-[#4B5563] leading-relaxed mb-8 text-justify">
               By connecting trusted resources, capable partners, and practical expertise, we deliver efficient,
               dependable solutions tailored to the needs of each client.
             </p>

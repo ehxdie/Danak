@@ -77,11 +77,11 @@ export const ServicesPreview: React.FC = () => {
             <p className="text-base text-gray-600 leading-relaxed">
               Practical Solutions. Reliable Execution.
             </p>
-            <p className="mt-4 text-base text-gray-600 leading-relaxed">
+            <p className="mt-4 text-base text-gray-600 leading-relaxed text-justify">
               Danak provides a range of integrated services designed to support business operations from
               procurement and logistics to property, facilities, and project management.
             </p>
-            <p className="mt-4 text-base text-gray-600 leading-relaxed">
+            <p className="mt-4 text-base text-gray-600 leading-relaxed text-justify">
               Whether you need to source critical equipment, manage a facility, coordinate marine operations,
               or support a project, we provide the resources and operational coordination to get the job done.
             </p>
