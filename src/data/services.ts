@@ -5,42 +5,42 @@ export const servicesData: Service[] = [
     id: 'marine-logistics',
     title: 'Marine & Logistics',
     slug: 'marine-logistics',
-    description: 'Efficient logistics coordination and operational support for marine, offshore and coastal activities, ensuring the seamless movement of personnel, equipment and materials.',
+    description: 'Danak Logistics Resource Ltd delivers reliable logistics coordination and operational support for marine, offshore, and coastal activities.\n\nWe ensure the efficient movement of personnel, equipment, and materials—keeping operations safe, organised, and on schedule.\n\nOur responsive, tailored support helps clients maintain continuity in demanding environments.',
     icon: 'FiAnchor',
   },
   {
     id: 'equipment-management',
     title: 'Equipment Management',
     slug: 'equipment-management',
-    description: 'Professional management and coordination of marine equipment, ensuring assets are maintained, deployed and operated efficiently to support client projects.',
+    description: 'We provide professional management and coordination of marine equipment to ensure assets are properly maintained, efficiently deployed, and ready to support ongoing operations.\n\nFrom routine maintenance planning to equipment tracking and mobilisation, we help clients maximise asset performance, reduce downtime, and keep projects moving safely and efficiently.',
     icon: 'FiTruck'
   },
   {
     id: 'procurement-supply',
     title: 'Procurement & Supply',
     slug: 'procurement-supply',
-    description: 'Procurement, sourcing and supply of quality marine equipment, operational materials and project resources tailored to the needs of the maritime and offshore industries.',
+    description: 'We source, procure, and supply quality marine equipment, operational materials, and project resources for maritime and offshore operations.\n\nOur procurement solutions are tailored to each client’s technical requirements, timelines, and budget—helping ensure the right resources are available when and where they are needed.',
     icon: 'FiBox'
   },
   {
     id: 'consultancy',
     title: 'Consultancy & Advisory',
     slug: 'consultancy',
-    description: 'Professional advisory services including maritime consultancy, regulatory guidance, documentation support, compliance assistance and project coordination for businesses operating within the marine and offshore sectors.',
+    description: 'We provide practical consultancy and advisory services for businesses operating in the marine and offshore sectors. Our support includes regulatory guidance, compliance assistance, documentation, operational planning, and project coordination.\n\nWith a clear understanding of industry requirements, we help clients make informed decisions, manage risk, and maintain efficient, compliant operations.',
     icon: 'FiTrendingUp'
   },
   {
     id: 'project-support',
     title: 'Project & Operations Support',
     slug: 'project-support',
-    description: 'End-to-end operational support for marine and offshore projects, from planning and coordination through execution and ongoing operational assistance.',
+    description: 'We deliver end-to-end operational support for marine and offshore projects, from early-stage planning and logistics coordination to execution and ongoing operational assistance.\n\nOur team works closely with clients to keep personnel, equipment, materials, and project activities aligned—supporting safe, efficient, and reliable delivery in demanding operating environments.',
     icon: 'FiTrendingUp'
   },
   {
     id: 'facilities-management',
     title: 'Facilities Management',
     slug: 'facilities-management',
-    description: 'Danak Logistics Resource Ltd delivers integrated facilities management solutions that preserve asset value, improve operational efficiency, and provide safe, functional environments for tenants, employees, and visitors. We support commercial, residential, industrial, and mixed-use developments with tailored management services designed to maximise the performance and longevity of every property.\n\nWhether managing office complexes, shopping malls, residential estates, or specialised facilities, we provide dependable day-to-day operational support backed by preventive maintenance, regulatory compliance, and responsive service delivery.',
+    description: 'Danak provides integrated facilities management that protects asset value, improves efficiency, and keeps properties safe, functional, and compliant.\n\nWe manage commercial, residential, industrial, and mixed-use properties—including offices, malls, estates, and specialised facilities—with reliable daily operations, preventive maintenance, and responsive support.\n\nOur tailored solutions help every property perform at its best, today and over the long term.',
     icon: 'FiHome'
   }
 ];

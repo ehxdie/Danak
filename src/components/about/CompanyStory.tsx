@@ -30,11 +30,8 @@ export const CompanyStory: React.FC = () => {
             viewport={{ once: true }}
             className="lg:col-span-6"
           >
-            <span className="text-xs font-bold uppercase tracking-widest text-[#0A2A52] mb-3 block">
-              About Us
-            </span>
             <h2 className="text-3xl md:text-4xl font-extrabold text-[#111827] mb-6">
-              About Danak Logistics resource Ltd
+              About Us
             </h2>
             <p className="text-base text-[#4B5563] leading-relaxed mb-6">
               Danak Logistics & Resources Ltd delivers integrated marine logistics, offshore support and 
