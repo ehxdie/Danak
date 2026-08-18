@@ -2,6 +2,8 @@ import React, { useState } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { Link } from 'react-router-dom';
 import { FiChevronRight, FiAnchor, FiTruck, FiBox, FiBriefcase, FiHome } from 'react-icons/fi';
+import image3 from '../../assets/images/image3.png';
+import image4 from '../../assets/images/image4.png';
 
 const servicesList = [
   {
@@ -37,7 +39,7 @@ const servicesList = [
     title: 'Facilities Management',
     subtitle: 'Property & Asset Maintenance',
     description: 'Integrated management of commercial, office, and property facilities, including maintenance coordination, security, cleaning, utilities, and day-to-day operational support.',
-    image: '/images/services/facilities_management.webp',
+    image: image3,
     icon: <FiHome className="w-5 h-5" />
   },
   {
@@ -46,7 +48,7 @@ const servicesList = [
     title: 'Project & Operations Support',
     subtitle: 'Planning, Coordination & Execution',
     description: 'Practical support for construction, infrastructure, energy, and commercial projects — from planning and coordination to execution.',
-    image: '/images/services/consultancy_support.webp',
+    image: image4,
     icon: <FiBriefcase className="w-5 h-5" />
   },
   {
