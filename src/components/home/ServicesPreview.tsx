@@ -172,9 +172,11 @@ export const ServicesPreview: React.FC = () => {
                       alt={currentService.title}
                       loading="lazy"
                       decoding="async"
-                      className="w-full h-full object-cover object-center transform group-hover:scale-103 transition-transform duration-700"
+                      className={`w-full h-full object-cover object-center transform group-hover:scale-103 transition-transform duration-700 ${
+                        (currentService.id === 'facilities-management' || currentService.id === 'project-operations-support') ? 'brightness-110 contrast-110' : ''
+                      }`}
                     />
-                    <div className="absolute inset-0 bg-gradient-to-t from-[#061427]/70 via-transparent to-transparent pointer-events-none" />
+                    <div className="absolute inset-0 bg-gradient-to-t from-[#061427]/30 via-transparent to-transparent pointer-events-none" />
                     
                     {/* Floating Overlay Badge */}
                     <div className="absolute bottom-4 left-4 right-4 flex items-center justify-between text-white text-xs font-semibold">
